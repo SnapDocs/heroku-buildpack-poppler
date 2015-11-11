@@ -1,9 +1,17 @@
-Heroku buildpack: Poppler
-=======================
+Heroku buildpack: Poppler (deprecated)
+======================================
 
 This [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) provides Poppler.
 
 It should be used with [heroku-buildpack-multi](https://github.com/ddollar/heroku-buildpack-multi).
+
+## Deprecated!
+
+This buildpack only works with the also legacy Cedar Stack.
+It is not compatible with Cedar-14.
+
+For Cedar-14, use <https://github.com/ddollar/heroku-buildpack-apt>.
+Set up a `Aptfile` which lists the `poppler-utils` package.
 
 ## Current version
 
